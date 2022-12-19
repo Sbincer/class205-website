@@ -1,0 +1,11 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    background-color: rgba(77, 71, 105, 0.816);
+    font-family: 'Noto Sans TC',sans-serif !important;
+}

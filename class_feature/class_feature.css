@@ -1,0 +1,42 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    background-color: rgba(0, 0, 0, 0.816);
+    /*font-family: 'Noto Sans TC',sans-serif !important;*/
+}
+nav {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0%;
+    backdrop-filter: blur(10px);
+    background-color: rgba(139, 161, 245, 0.2);
+
+}
+nav a {
+    color: white;
+    font-size: 2rem;
+    border-radius: 1.6rem;
+    padding: 0.5rem 1.5rem;
+}
+nav a:hover {
+    color: rgba(91, 135, 157);
+    background-color: rgba(255,255,255);
+    transition: 0.55s;
+}
+.navbar {
+    position: sticky;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}

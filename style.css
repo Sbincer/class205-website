@@ -1,0 +1,123 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    background-color: rgba(0, 0, 0, 0.816);
+    /*font-family: 'Noto Sans TC',sans-serif !important;*/
+}
+/* 導覽列設定 */
+nav {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0%;
+    backdrop-filter: blur(10px);
+    background-color: rgba(139, 161, 245, 0.2);
+
+}
+nav a {
+    color: white;
+    font-size: 2rem;
+    border-radius: 1.6rem;
+    padding: 0.5rem 1.5rem;
+}
+nav a:hover {
+    color: rgba(91, 135, 157);
+    background-color: rgba(255,255,255);
+    transition: 0.55s;
+}
+.navbar {
+    position: sticky;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+header {
+    height: 95vh;
+    background-image: url(/照片素材/星雲.jpg);
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: -10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header_title {
+    color: #fff;
+    font-size: 5rem;
+}
+article {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 880px;
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: multiply;
+    background-color: rgb(0,0,0,0.3);
+}
+article.future_planning {
+    background-image: url(../照片素材/205幹部會議.jpg);
+}
+article.class_feature {
+    background-image: url(../照片素材/205防災演習.jpg);
+}
+article.class_information {
+    background-image: url(../照片素材/205敏捷工作流.jpg);
+}
+article.classmate_introduction {
+    background-image: url(../照片素材/205團照.jpg);
+}
+article.ended_activity {
+    background-image: url(../照片素材/205城市博覽會.jpg);
+}
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    width: 30%;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    padding: 10px;
+}
+.description:hover {
+    background-color: rgba(255,255,255,0.5);
+    color: black;
+
+}
+.branch_title {
+    line-height: 3rem;
+}
+.text {
+    line-height: 2rem;
+    border-top: 1px solid grey;
+    text-align: center;
+}
+.more_information {
+    box-sizing: border-box;
+    padding: 1rem 1.5rem;
+    align-items: center;
+    text-decoration: none;
+    height: 4.2rem;
+    background-color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(0, 187, 255);
+    border: 1px solid #fff;
+    border-radius: 2rem ;
+}
+.more_information:hover {
+    background-color: rgb(0, 187, 255);
+    color: rgb(255, 255, 255);
+    transition: 0.6s;
+    border: 0px;
+}
