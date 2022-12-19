@@ -1,4 +1,4 @@
 # class205-website
 
-it's a class website from a little student in CGSH 205
-not complete yet, but I'll try
+1. it's a class website from a little student in CGSH 205
+2. not complete yet, but I'll try
