@@ -43,7 +43,7 @@ nav a:hover {
 }
 header {
     height: 95vh;
-    background-image: url(/class205-website/img/星雲.jpg);
+    background-image: url(img/星雲.jpg);
     background-size: cover;
     background-position: center center;
     margin-bottom: -10vh;
